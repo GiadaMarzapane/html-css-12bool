@@ -1,0 +1,10 @@
+/* REGOLE BOX */
+.box {
+    height: 50px;
+    width: 100%;
+    border: 1px dashed black;
+}
+
+.row {   
+    background-color: aquamarine;
+}
