@@ -7,13 +7,28 @@
 .box {
     width: 100%;
     height: 50px;
-    padding: 3px;
+    padding: 10px 5px;
     background-color: aquamarine;
     border: 1px dashed black;
 }
 
 .box.nested {
-    height: 30px;    
+    height: 30px;
     border: 1px solid white;
     background-color: plum;
+    padding: 3px;
+}
+
+/* REGOLE ALIGNMENT */
+
+.row.alignment-start{
+    justify-content: start;
+}
+
+.row.alignment-center {
+    justify-content: center;
+}
+
+.row.alignment-end {
+    justify-content: end;
 }
