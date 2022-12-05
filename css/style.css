@@ -18,17 +18,3 @@
     background-color: plum;
     padding: 3px;
 }
-
-/* REGOLE ALIGNMENT */
-
-.row.alignment-start{
-    justify-content: start;
-}
-
-.row.alignment-center {
-    justify-content: center;
-}
-
-.row.alignment-end {
-    justify-content: end;
-}
