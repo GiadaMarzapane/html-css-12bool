@@ -11,6 +11,12 @@
     border: 1px dashed black;
 }
 
+.box-50{
+    height: 30px;
+    width: 100px;
+    background-color: crimson;
+}
+
 .box.nested {
     height: 30px;
     border: 1px solid white;
@@ -43,4 +49,12 @@
 
 .row.end{
     align-items: flex-end;
+}
+
+.row.space-around{
+    justify-content: space-around;
+}
+
+.row.space-between {
+    justify-content: space-between;
 }
