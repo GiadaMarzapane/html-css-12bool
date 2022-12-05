@@ -64,12 +64,12 @@
 
 .col-7 {
     flex-basis: calc((100% / 12) * 7);
-    max-width: calc((100% / 12) * 17;
+    max-width: calc((100% / 12) * 7);
 }
 
 .col-8 {
     flex-basis: calc((100% / 12) * 8);
-    max-width: calc((100% / 12) * 18;
+    max-width: calc((100% / 12) * 8);
 }
 
 .col-9 {

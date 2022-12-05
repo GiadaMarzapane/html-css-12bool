@@ -1,10 +1,18 @@
+[class*="col-"] {
+    margin-bottom: 5px;
+}
+
 /* REGOLE BOX */
 .box {
-    height: 50px;
     width: 100%;
+    height: 50px;
+    padding: 3px;
+    background-color: aquamarine;
     border: 1px dashed black;
 }
 
-.row {   
-    background-color: aquamarine;
+.box.nested {
+    height: 30px;    
+    border: 1px solid white;
+    background-color: plum;
 }
